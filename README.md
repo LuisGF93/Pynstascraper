@@ -1,2 +1,2 @@
 # instaScraper
-Scraper for extract Instagram's images
+Automatically extract Instagram's images to build your dataset
