@@ -1,0 +1,9 @@
+openssl~=1.1.1h
+cryptography~=3.2.1
+urllib3~=1.25.11
+zlib~=1.2.11
+selenium~=3.141.0
+certifi~=2020.6.20
+pip~=19.0.1
+wheel~=0.32.3
+setuptools~=40.7.3
