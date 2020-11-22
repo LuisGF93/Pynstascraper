@@ -2,7 +2,6 @@ from selenium import webdriver as web
 from selenium.webdriver.common import by as find
 import os
 from urllib import request
-#import ssl
 from downloader import downloader
 from downloader import createHashtagList
 import argparse
@@ -22,9 +21,6 @@ createHashtagList(labList)
 opener = request.build_opener()
 opener.addheaders = [('User-Agent', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36')]
 request.install_opener(opener)
-
-#ssl
-#ssl._create_default_https_context = ssl._create_unverified_context
 
 #url instagram
 urlLink = "https://www.instagram.com/"
